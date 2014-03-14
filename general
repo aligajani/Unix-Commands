@@ -1,0 +1,13 @@
+Collection of Linux Commands
+
+Copy from Remote to Local using SCP
+scp -r root@resly.me:/var/www/resly /Users/aligajani/Desktop
+
+Copy from Local to Remote using SCP
+scp -r /Users/aligajani/Desktop root@resly.me:/var/www/resly
+
+Clone into a directory folder name of your choice
+git clone https://github.com/aligajani/resly.me.git resly
+
+Remove a folder and its constituent files
+$ rm -rf
