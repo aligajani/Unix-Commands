@@ -11,3 +11,8 @@ git clone https://github.com/aligajani/resly.me.git resly
 
 Remove a folder and its constituent files
 $ rm -rf
+
+Remove shit from Linux
+sudo /etc/init.d/<program> stop
+sudo aptitude remove <program>
+sudo apt-get purge <program>
